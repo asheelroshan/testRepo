@@ -1,0 +1,20 @@
+students=['asheel','anjal','das','roy','joey','peter','thomas','mohammed','suhail','siyad']
+print(students)
+print(students[:4])
+print(students[5:])
+print(students[3:8])
+students.insert(4,'amith')
+print(students)
+students.append('jabbar')
+print(students)
+teachers=['syed','aswathy','hari']
+students.extend(teachers)
+print(students)
+animals=['cat','dog','fox','lion']
+animals.remove('fox')
+print(animals)
+animals.pop(1)
+print(animals)
+animals.clear()
+print(animals)
+del animals

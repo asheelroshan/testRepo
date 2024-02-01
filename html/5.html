@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+
+        li{
+            display: inline;
+        }
+        div1{
+            background-color:aquamarine;
+            padding: 2px;
+            margin: 5px;
+            float: left;
+            width:100%;
+            
+        }
+        a{
+            text-decoration:none ;
+            padding: 10px;
+        }
+
+        .container{
+     width:320px;
+     padding:32px;
+     margin:100px auto;
+     background-color: white;
+     border: 2px solid black;
+     border-radius: 8px;
+ }
+  label{
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  button{
+    background-color:blue;
+    color:white;
+    padding: 12px;
+    width:100%;
+
+  }
+  button:hover{
+    background-color: blue;
+  }
+  h2{
+    text-align: center;
+
+  }
+  body{
+    background-image:url(https://blog.kesari.in/wp-content/uploads/2017/04/kerala.jpg) ;
+  }
+        
+
+        </style>
+</body>
+<div1>
+    <ul style="list-style-type: none;">
+        <li value="Home"><a href="1.html">Home</a></li>
+        <li value="About us"><a href="2.html">About us</a></li>
+        <li value="Contact"><a href="3.html">Contact</a></li>
+        <li value="Login"><a href="4.html">Log in</a></li>
+        <li value="Sign in"><a href="5.html">Sign in</a></li>
+        </ul>
+    </div1>
+    <br>
+    <br>
+   
+            <div class="container">
+                <h2>Sign In</h2>
+                <form>
+                    <label for="email">E-mail:
+                    </label>
+                    <br><br>
+                    <input type="text" id="email" name="email" placeholder="Enter your e-mail address"><br>
+                    <br>
+                    <label for="password">Password:
+                    </label>
+                    <br><br>
+                    <input type="text" id="password" name="password" placeholder="Enter your password"><br>
+                    <br><br>
+                    <label for="name">Name:
+                    </label>
+                    <br><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+                    <br><br>
+                    <label for="address">Address:
+                    </label>
+                    <br><br>
+                    <input type="text" id="address" name="address" placeholder="Enter your address"><br>
+                    <br><br>
+                    <button type="submit" class="registerbtn">Sign In</button>
+                    
+            </form>
+        </div>
+</html>
